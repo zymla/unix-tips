@@ -10,3 +10,5 @@ tar --format=posix -z -v -c -f ~/json.tgz path/*.json
 ```
 tar -cvfz foo.tgz -C /dir/to/cd/into sub/path/with/files
 ```
+## Convert Latin1 to UTF-8
+`iconv -f iso-8859-1 -t utf-8 input_file -o ouput_file`
