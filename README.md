@@ -1,4 +1,11 @@
 # unix-tips
+## Git
+```
+git config --global user.email "email@domain"
+git config --global user.name "Name"
+git config --global credential.helper store
+```
+
 
 ## Tar
 ### UTF-8 filenames and Windows
