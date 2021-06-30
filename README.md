@@ -31,3 +31,7 @@ tar -cvfz foo.tgz -C /dir/to/cd/into sub/path/with/files
 
 ## Add line numbers
 `cat -n`
+
+# Unicode
+## Remove BOM from Excel CSVs
+`sed '1s/^\xEF\xBB\xBF//'`
