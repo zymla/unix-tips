@@ -6,7 +6,6 @@ git config --global user.name "Name"
 git config --global credential.helper store
 ```
 
-
 ## Tar
 ### UTF-8 filenames and Windows
 Add `--format=posix` when creating the  file, e.g.:
@@ -35,3 +34,8 @@ tar -cvfz foo.tgz -C /dir/to/cd/into sub/path/with/files
 # Unicode
 ## Remove BOM from Excel CSVs
 `sed '1s/^\xEF\xBB\xBF//'`
+
+# SSL
+https://certbot.eff.org/
+
+
