@@ -82,4 +82,6 @@ Make a video from a pic and an mp3
 ffmpeg  -loop 1 -i image.png -i song.mp3 -c:v libx264  -pix_fmt yuv420p -t 55 -vf subtitles=subtitles.srt  output_movie.mp4
 ```
 
-
+# Docker
+## install `add-apt-repository`
+```apt install software-properties-common```
