@@ -31,6 +31,13 @@ killall Finder # restarting Finder is required
 ```
 
 ## Misc
+### `nice` & `renice`: Process priority (Linux & MacOS)
+To launch a new process, use `nice` instead
+```
+renice -n "-20" -p <PID> 
+```
+Max priority is `-20`, minimal priority is `20`
+
 ### `vipe`
 Pipe in and out of $EDITOR.
 
